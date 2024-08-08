@@ -1,0 +1,140 @@
+---
+layout: post
+title:  "백준 1991번 python 풀이 - 트리 순회"
+date:   2024-07-12 22:03:00 +0900
+categories: algorithm
+tags: [python, 크래프톤정글문제풀이, 트리, 이진트리, 이진트리탐색]
+---
+
+## 문제 링크
+[1991번](https://www.acmicpc.net/problem/1991)
+
+## 해결책
+```python
+import sys
+
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+
+class BinarySearchTree:
+    def __init__(self):
+        self.root = None
+
+    def insert_by_val(self, nodeVal):
+        node = Node(nodeVal)
+
+        if self.root is None:
+            self.root = node
+            return
+
+        cur = self.root
+
+        if
+
+    def insert_by_parent(self, nodeVal, way=None, parent_val: Node = None):
+        node = Node(nodeVal)
+
+        if self.root is None:
+            self.root = node
+            return
+
+        if parent_val is not None:
+            stack = [self.root]
+            while stack:
+                cur: Node = stack.pop()
+                if cur.val == parent_val:
+                    if way == "L":
+                        cur.left = node
+                        return
+                    elif way == "R":
+                        cur.right = node
+                        return
+                else:
+                    if cur.right is not None:
+                        stack.append(cur.right)
+                    if cur.left is not None:
+                        stack.append(cur.left)
+            return 0
+
+    def preorder_traversal_recursion(self, node: Node = None):
+        if self.root is None:
+            return
+
+        if node is None:
+            cur = self.root
+        else:
+            cur = node
+
+        print(cur.val, end="")
+        if cur.left is not None:
+            self.preorder_traversal_recursion(cur.left)
+        if cur.right is not None:
+            self.preorder_traversal_recursion(cur.right)
+        return
+
+    def inorder_traversal_recursion(self, node: Node = None):
+        if self.root is None:
+            return
+
+        if node is None:
+            cur = self.root
+        else:
+            cur = node
+
+
+        if cur.left is not None:
+            self.inorder_traversal_recursion(cur.left)
+        print(cur.val, end="")
+        if cur.right is not None:
+            self.inorder_traversal_recursion(cur.right)
+        return
+
+    def postorder_traversal_recursion(self, node: Node = None):
+        if self.root is None:
+            return
+
+        if node is None:
+            cur = self.root
+        else:
+            cur = node
+
+
+        if cur.left is not None:
+            self.postorder_traversal_recursion(cur.left)
+        if cur.right is not None:
+            self.postorder_traversal_recursion(cur.right)
+        print(cur.val, end="")
+        return
+
+bst = BinarySearchTree()
+
+N = int(sys.stdin.readline().rstrip())
+for i in range(N):
+    parent, L, R = sys.stdin.readline().rstrip().split()
+    if(parent == "A"):
+        bst.insert(parent)
+    if L != ".":
+        bst.insert(L, way="L", parent_val=parent)
+    if R != ".":
+        bst.insert(R, way="R", parent_val=parent)
+
+bst.preorder_traversal_recursion()
+print()
+bst.inorder_traversal_recursion()
+print()
+bst.postorder_traversal_recursion()
+```
+
+## 주석으로 달 설명
+
+아 이번부터, 이전 문제의 제목 방식이 어려워, 문제 이름으로 페이지 이름을 변경하였다.
+
+이번 문제는 이진 트리에서의 탐색 문제이다.
+전위, 중위, 후위 순회가 잇는데, 이는 [트리](krafton_issues_Tree)에서 조금 더 자세하게 다뤄보려고 한다.
+
+구현 자체는 이진 트리와 조건에 맞는 insert 함수를 만들고, 이곳에서 각각에 노드를 연결하여 진행하는 방식으로 구성되어 있다.
