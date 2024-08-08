@@ -56,5 +56,5 @@ print(_sum)
 
 ## 주석으로 달 설명
 
-[크루스칼 알고리즘](krafton_issues_Graphs_Kruskal)을 이용한 풀이이다.
+[크루스칼 알고리즘](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)을 이용한 풀이이다.
 자세한 크루스칼 알고리즘의 대한 해설은 링크를 통해 작성해두었다.

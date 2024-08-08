@@ -17,7 +17,7 @@ MST(Minimum Spanning Tree: 최소 비용 신장 트리)란, 신장 트리들 중
 
 1. 그리디 알고리즘
 
-2. [크루스칼 알고리즘](krafton_issues_Graphs_Kruskal)
+2. 크루스칼 알고리즘
 
-3. [프림 알고리즘](krafton_issues_Graphs_Prim)
+3. 프림 알고리즘
 

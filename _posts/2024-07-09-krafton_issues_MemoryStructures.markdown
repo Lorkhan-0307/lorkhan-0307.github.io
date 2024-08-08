@@ -17,8 +17,6 @@ tags: [python, 크래프톤정글개념정리, 메모리구조, 컴퓨터구조,
 3. 힙(heap)영역
 4. 스택(stack)영역
 
-그림으로 표현하자면 다음과 같다.
-![Image Error](/images/MemoryStructure_00.png)
 
 이러한 메모리들은 각각 역할이 다르다.
 
@@ -62,11 +60,7 @@ func2():
 if __name__ == "__main__":
 	main()
 ```
-위와 같은 코드가 있다고 가정하자. 그러면 스택 영역의 할당은 다음과 같이 이루어진다.
-
-![Image Error](/images/Memory_StackFunc_00.png)
-
-![Image Error](/images/Memory_StackFunc_01.png)
+위와 같은 코드가 있다고 가정하자.
 
 이를 잠시 순서에 나누어 설명해보자.
 

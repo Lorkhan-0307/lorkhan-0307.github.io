@@ -8,12 +8,10 @@ tags: [python, 크래프톤정글주제탐구, 그래프]
 
 
 # 정의
-그래프는 [트리](krafton_issues_Tree)와 유사하면서 차이를 가지고 있다.
+그래프는 트리와 유사하면서 차이를 가지고 있다.
 오히려 정확한 정의를 바라보자면, 트리가 그래프의 유형 중 하나라고 볼 수 있다.
 
 `그래프`란, `정점(Vertex)`와 `변(Edge)`로 구성되어 있는 자료구조형이다.
-
-![image Error](/images/Graph_General_00.png)
 
 # 특징
 
@@ -35,7 +33,7 @@ tags: [python, 크래프톤정글주제탐구, 그래프]
 
 
 
-#### [4색정리](krafton_issues_Graphs_4Colors)
+#### 4색정리
 
 #### 다익스트라 알고리즘
 
@@ -47,7 +45,7 @@ tags: [python, 크래프톤정글주제탐구, 그래프]
 
 #### 해밀턴 회로
 
-#### [Minimum Spanning Tree](krafton_issues_Graphs_MST)
+#### Minimum Spanning Tree
 
 #### Max-flow Min-cut Algorithm
 

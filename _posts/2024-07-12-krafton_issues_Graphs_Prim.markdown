@@ -8,7 +8,7 @@ tags: [python, 크래프톤정글주제탐구, 트리, 신장 트리, 최소 신
 
 
 # 정의
-프림 알고리즘(Prim's Algorithm)이란, [MST](krafton_issues_Graphs_MST)를 구하기 위해 사용되는 알고리즘이다.
+프림 알고리즘(Prim's Algorithm)이란, MST를 구하기 위해 사용되는 알고리즘이다.
 
 # 특징
 프림 알고리즘의 경우, 다익스트라 알고리즘과 거이 유사한 알고리즘의 형태를 보인다.
