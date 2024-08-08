@@ -129,4 +129,3 @@ STACK!
 
 하여튼 이런식으로 메모리에서도 스택이 사용된다는 것이다!
 
-[메모리 구조의 대한 간단한 설명](krafton_issues_MemoryStructures)

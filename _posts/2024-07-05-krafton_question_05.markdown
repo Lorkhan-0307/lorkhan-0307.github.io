@@ -37,4 +37,3 @@ parameters -> 인자들
 result -> 반환되는 결과값
 
 parameter는 가변 매개변수를 받을 수도 있다.
-자세한 것은 [2번 문제풀이](krafton_question_01)참조.

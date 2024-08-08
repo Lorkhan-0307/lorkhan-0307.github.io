@@ -34,7 +34,7 @@ tags: [python, 크래프톤정글주제탐구, 트리, 신장 트리, 최소 신
 
 # 구현
 
-[문제 1197번](baekjoon_1197)
+문제 1197번
 
 ```python
 import sys
