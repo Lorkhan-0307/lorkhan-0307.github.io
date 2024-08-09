@@ -13,7 +13,7 @@ tags: [C, 크래프톤정글용어정리, 메모리, 동적할당]
 하지만, 힙 영역의 경우 프로그램이 실행되는 도중인 런타임(Run time)에 사용자의 결정에 따라 할당된다!
 이렇게 런타임에 할당받는 것을 우리는 메모리의 동적 할당(Dynamic Allocation)이라고 한다.
 
-[메모리 구조](posts/krafton_issues_malloc) 참고
+[메모리 구조](krafton_issues_malloc) 참고
 
 
 ## Malloc 함수
