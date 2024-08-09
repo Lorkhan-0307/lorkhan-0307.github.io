@@ -1,18 +1,14 @@
 ---
 layout: post
-title:  "크래프톤 정글 주제별 탐구 - 메모리의 동적 할당"
+title:  "크래프톤 정글 주제별 탐구 - 메모리 할당기"
 date:   2024-07-26 21:00:00 +0900
 categories: computer_structures
 tags: [C, 크래프톤정글용어정리, 메모리, 동적할당]
 ---
 
 # 정의
-가상 메모리에는 코드, 데이터, 힙, 스택 영역이 있었다.
-이중, 데이터 영역과 스택 영역은 전에 컴파일 타임에 미리 결정된다고 했다.
-
-하지만, 힙 영역의 경우 프로그램이 실행되는 도중인 런타임(Run time)에 사용자의 결정에 따라 할당된다!
-이렇게 런타임에 할당받는 것을 우리는 메모리의 동적 할당(Dynamic Allocation)이라고 한다.
-
+동적 메모리 할당기(Dynamic Memory Allocator)는 힙(heap) 이라고 하는 프로세스의 가상 메모리 영역을 관리한다.
+[어쨋든](/_posts/krafton_issues_MemoryStructures) 이게 통하나...?
 
 ## Malloc 함수
 
