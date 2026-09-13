@@ -3,7 +3,7 @@ layout: post
 title:  "UE Study 3.Udemy 강의 2일차"
 date:   2025-02-17 18:00:00 +0900
 categories: GameProgramming
-tags: [C++, UE5]
+tags: [cpp, UE5]
 ---
 
 

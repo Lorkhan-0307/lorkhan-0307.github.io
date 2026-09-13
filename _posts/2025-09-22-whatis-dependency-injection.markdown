@@ -895,9 +895,9 @@ flowchart LR
     RES[해결: GameManager 생성]
   end
 
-  GM[GameManager\n(인터페이스에 의존)]
+  GM["GameManager<br/>(인터페이스에 의존)"]
   IL[ILogger]
-  FL[FileLogger\n(구체 구현)]
+  FL["FileLogger<br/>(구체 구현)"]
   DB[IDatabase]
   SQL[SqlDatabase]
   CFG[IConfigReader]

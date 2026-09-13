@@ -5,6 +5,7 @@ date: 2025-09-21 15:00:00 +0900
 categories: [Tech Interview, c-sharp]
 tags: [c-sharp, memory management, garbage collector, IDisposable, async await, boxing unboxing]
 slug: csharp-memory-management
+mermaid: true
 ---
 ## 📌 학습 목표 (Learning Goals)
 - 값/참조 형식과 스택/힙의 관계, [박싱/언박싱]({{ site.baseurl }}/posts/whatis-boxingunboxing/)의 비용을 명확히 설명한다.

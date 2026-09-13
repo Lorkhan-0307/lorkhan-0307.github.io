@@ -1,5 +1,6 @@
 export function toc() {
-  if (document.querySelector('main h2, main h3')) {
+  const wrapper = document.getElementById('toc-wrapper');
+  if (wrapper && document.querySelector('main h2, main h3')) {
     // see: https://github.com/tscanlin/tocbot#usage
     tocbot.init({
       tocSelector: '#toc',
@@ -10,6 +11,6 @@ export function toc() {
       scrollSmooth: false
     });
 
-    document.getElementById('toc-wrapper').classList.remove('d-none');
+    wrapper.classList.remove('d-none');
   }
 }

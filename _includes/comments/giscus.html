@@ -3,7 +3,7 @@
   (function () {
     const origin = 'https://giscus.app';
     const lightTheme = 'light';
-    const darkTheme = 'dark_dimmed';
+    const darkTheme = '{{ site.comments.giscus.dark_theme | default: "dark_dimmed" }}';
 
     let initTheme = lightTheme;
     const html = document.documentElement;
@@ -43,6 +43,7 @@
 
     addEventListener('message', (event) => {
       if (
+        typeof ModeToggle !== 'undefined' &&
         event.source === window &&
         event.data &&
         event.data.direction === ModeToggle.ID
@@ -57,8 +58,10 @@
           }
         };
 
-        const giscus = document.getElementsByClassName('giscus-frame')[0].contentWindow;
-        giscus.postMessage({ giscus: message }, origin);
+        const frame = document.querySelector('.giscus-frame');
+        if (frame && frame.contentWindow) {
+          frame.contentWindow.postMessage({ giscus: message }, origin);
+        }
       }
     });
   })();

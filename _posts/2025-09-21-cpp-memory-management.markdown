@@ -3,7 +3,7 @@ layout: post
 title: "C++ 메모리 관리 (스택 vs 힙, 스마트 포인터, RAII)"
 date: 2025-09-22 16:00:00 +0900
 categories: [Tech Interview, Study Plan]
-tags: [c++, memory, smart-pointer, raii, stack, heap]
+tags: [cpp, memory, smart-pointer, raii, stack, heap]
 slug: cpp-memory-management
 mermaid: true
 ---

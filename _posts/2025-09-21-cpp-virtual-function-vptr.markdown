@@ -3,7 +3,7 @@ layout: post
 title: "C++ 가상 함수와 vptr: 런타임 다형성의 핵심 메커니즘"
 date: 2025-09-21 15:05:00 +0900
 categories: [Tech Interview, C++]
-tags: [C++, virtual function, vptr, polymorphism, memory layout, runtime binding]
+tags: [cpp, virtual function, vptr, polymorphism, memory layout, runtime binding]
 ---
 
 ## 📌 학습 목표

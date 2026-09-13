@@ -3,8 +3,9 @@ layout: post
 title: "객체지향(OOP - Object Oriented Programming) - C++/C#/CS 기초"
 date: 2025-09-22 15:00:00 +0900
 categories: [Tech Interview, Study Plan]
-tags: [c++, c#, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
+tags: [cpp, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
 slug: whatis-oop
+mermaid: true
 ---
 
 # 객체지향(OOP - Object Oriented Programming)
@@ -202,7 +203,7 @@ class Der  : Base { public override void G() => Console.WriteLine("Der.G"); }
 
 ```mermaid
 graph LR
-  OOP[객체지향]({{ site.baseurl }}/posts/whatis-oop/) --> A[추상화]
+  OOP[객체지향] --> A[추상화]
   OOP --> E[캡슐화]
   OOP --> I[상속]
   OOP --> P[다형성]

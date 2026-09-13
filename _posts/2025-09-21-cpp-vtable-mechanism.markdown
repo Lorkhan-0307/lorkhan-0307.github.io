@@ -3,7 +3,7 @@ layout: post
 title: "C++ vtable 메커니즘: 가상 함수 동작 원리 완벽 분석"
 date: 2025-09-21 15:04:00 +0900
 categories: [Tech Interview, C++]
-tags: [C++, vtable, virtual function, polymorphism, vptr, memory layout]
+tags: [cpp, vtable, virtual function, polymorphism, vptr, memory layout]
 ---
 
 ## 📌 학습 목표

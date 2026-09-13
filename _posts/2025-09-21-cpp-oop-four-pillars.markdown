@@ -3,7 +3,7 @@ layout: post
 title: "객체지향 프로그래밍 4대 특성: 추상화, 캡슐화, 상속, 다형성 완벽 가이드"
 date: 2025-09-21 15:06:00 +0900
 categories: [Tech Interview, OOP]
-tags: [OOP, abstraction, encapsulation, inheritance, polymorphism, C++, design principles]
+tags: [oop, abstraction, encapsulation, inheritance, polymorphism, cpp, design-principles]
 ---
 
 ## 📌 학습 목표

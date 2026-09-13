@@ -3,7 +3,7 @@ layout: post
 title: "C++ 다이아몬드 상속 문제와 가상 상속 해결책"
 date: 2025-09-21 15:07:00 +0900
 categories: [Tech Interview, C++]
-tags: [C++, diamond inheritance, virtual inheritance, multiple inheritance, memory layout]
+tags: [cpp, diamond inheritance, virtual inheritance, multiple inheritance, memory layout]
 ---
 
 ## 📌 학습 목표

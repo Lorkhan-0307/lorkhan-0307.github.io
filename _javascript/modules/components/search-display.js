@@ -63,7 +63,7 @@ class ResultSwitch {
       content.forEach((el) => {
         el.classList.remove(UNLOADED);
       });
-      input.textContent = '';
+      input.value = '';
       this.resultVisible = false;
     }
   }

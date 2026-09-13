@@ -10,7 +10,7 @@ use_math: true
 # 서론
 사실 제작기 라는 이름을 적어두었지만... 실제로는 후기에 더 가깝다.
 
-일단은 먼저, PintOS의 대한 깃북의 한국어 번역본(손번역, 매우구림)이 필요하다면 [여기](https://lorkhan-0307.github.io/posts/pintOS_2/)로...
+일단은 먼저, PintOS의 대한 깃북의 한국어 번역본(손번역, 매우구림)이 필요하다면 [여기]({% post_url 2024-09-03-pintOS_2 %})로...
 
 # 1. Argument Passing
 

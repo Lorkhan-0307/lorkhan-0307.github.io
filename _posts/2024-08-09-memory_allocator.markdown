@@ -8,7 +8,7 @@ tags: [C, 크래프톤정글용어정리, 메모리, 동적할당]
 
 # 정의
 동적 메모리 할당기(Dynamic Memory Allocator)는 힙(heap) 이라고 하는 프로세스의 가상 메모리 영역을 관리한다.
-[메모리 구조](https://lorkhan-0307.github.io/posts/krafton_issues_MemoryStructures/)를 참고하면 도움이 될 것이다.
+[메모리 구조]({% post_url 2024-07-09-krafton_issues_MemoryStructures %})를 참고하면 도움이 될 것이다.
 
 일단, 현재 정글에서 요구하는 순서에 맞추어 진행을 해보고자 하겠다.
 

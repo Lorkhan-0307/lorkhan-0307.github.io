@@ -3,7 +3,7 @@ layout: post
 title: "Garbage Collector(가비지 컬렉터) - C++/C#/CS 기초"
 date: 2025-09-22 15:00:00 +0900
 categories: [Tech Interview, Study Plan]
-tags: [c++, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
+tags: [cpp, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
 slug: whatis-gc
 mermaid: true
 ---
@@ -202,7 +202,7 @@ A. C#은 CLR 기반 세대별 GC, Unity는 Mono/IL2CPP GC로 프레임 드랍 �
 
 ```mermaid
 flowchart TD
-    A[객체 생성 (Gen 0)] --> B{Gen 0 수집}
+    A["객체 생성 (Gen 0)"] --> B{Gen 0 수집}
     B -->|살아남음| C[Gen 1로 승격]
     B -->|해제| X[메모리 반환]
     C --> D{Gen 1 수집}

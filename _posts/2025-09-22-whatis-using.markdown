@@ -3,7 +3,7 @@ layout: post
 title: "using/await using -  C# 메모리 관리 핵심"
 date: 2025-09-22 15:00:00 +0900
 categories: [Tech Interview, Study Plan]
-tags: [c++, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
+tags: [cpp, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
 slug: whatis-using
 mermaid: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "IDisposable - C++/C#/CS 기초"
 date: 2025-09-22 15:00:00 +0900
 categories: [Tech Interview, Study Plan]
-tags: [c++, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
+tags: [cpp, c-sharp, computer-science, algorithm, data-structure, operating-system, network, database, design-pattern]
 slug: whatis-idisposable
 mermaid: true
 ---
@@ -314,7 +314,7 @@ graph TD
   GC[GC - 관리 메모리] -->|관리되지 않는 자원 미관리| ID[IDisposable]
   ID --> U[using / using 선언]
   ID --> FH[SafeHandle]
-  ID --> FIN[Finalizer(지양)]
+  ID --> FIN["Finalizer(지양)"]
   ID --> AD[IAsyncDisposable]
   AD --> AU[await using]
   FH --> OS[OS Handle]

@@ -13,11 +13,7 @@ const SRC_PWA = `${SRC_DEFAULT}/pwa`;
 const isProd = process.env.BUILD === 'production';
 
 if (fs.existsSync(DIST_DEFAULT)) {
-  fs.rm(DIST_DEFAULT, { recursive: true, force: true }, (err) => {
-    if (err) {
-      throw err;
-    }
-  });
+  fs.rmSync(DIST_DEFAULT, { recursive: true, force: true });
 }
 
 function build(filename, opts = {}) {

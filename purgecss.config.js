@@ -1,13 +1,8 @@
 const fs = require('fs');
 const DIST_PATH = '_sass/dist';
 
-fs.rm(DIST_PATH, { recursive: true, force: true }, (err) => {
-  if (err) {
-    throw err;
-  }
-
-  fs.mkdirSync(DIST_PATH);
-});
+fs.rmSync(DIST_PATH, { recursive: true, force: true });
+fs.mkdirSync(DIST_PATH, { recursive: true });
 
 module.exports = {
   content: ['_includes/**/*.html', '_layouts/**/*.html', '_javascript/**/*.js'],

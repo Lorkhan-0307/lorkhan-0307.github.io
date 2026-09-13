@@ -3,7 +3,7 @@ layout: post
 title: "C++ 핵심 개념: 상속, 다형성, 순수 가상 함수, 추상 클래스, 컴포지션"
 date: 2025-09-21 15:08:00 +0900
 categories: [Tech Interview, C++]
-tags: [C++, inheritance, polymorphism, pure virtual function, abstract class, composition, class design]
+tags: [cpp, inheritance, polymorphism, pure virtual function, abstract class, composition, class design]
 ---
 
 ## 📌 학습 목표
